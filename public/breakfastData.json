@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Bagel and cream cheese",
+        "img": "https://i.ibb.co/SJpYSv3/breakfast1.png",
+        "details": "How we dream about our future",
+        "description": "Gay one the what walk then she. Demesne mention promise you justice arrived away. Amazing foods ar Or and increasing to in especially inquietude companions acceptance admiration. Outweigh it families distance wandered ye",
+        "price": "$6.99"
+    },
+    {
+        "id": 2,
+        "name": "Breakfast sandwich",
+        "img": "https://i.ibb.co/0nqbPjC/breakfast2.png",
+        "details": "How we dream about our future",
+        "description": "Gay one the what walk then she. Demesne mention promise you justice arrived away. Amazing foods ar Or and increasing to in especially inquietude companions acceptance admiration. Outweigh it families distance wandered ye",
+        "price": "$6.99"
+    },
+    {
+        "id": 3,
+        "name": "Baked Chiken",
+        "img": "https://i.ibb.co/BC7c3ty/breakfast3.png",
+        "details": "How we dream about our future",
+        "description": "Gay one the what walk then she. Demesne mention promise you justice arrived away. Amazing foods ar Or and increasing to in especially inquietude companions acceptance admiration. Outweigh it families distance wandered ye",
+        "price": "$10.99"
+    },
+    {
+        "id": 4,
+        "name": "Eggs Benedict",
+        "img": "https://i.ibb.co/F6xqwFF/breakfast4.png",
+        "details": "How we dream about our future",
+        "description": "Gay one the what walk then she. Demesne mention promise you justice arrived away. Amazing foods ar Or and increasing to in especially inquietude companions acceptance admiration. Outweigh it families distance wandered ye",
+        "price": "$8.99"
+    },
+    {
+        "id": 5,
+        "name": "Toast Croissant Fried egg",
+        "img": "https://i.ibb.co/d6xyn5c/breakfast5.png",
+        "details": "How we dream about our future",
+        "description": "Gay one the what walk then she. Demesne mention promise you justice arrived away. Amazing foods ar Or and increasing to in especially inquietude companions acceptance admiration. Outweigh it families distance wandered ye",
+        "price": "$19.99"
+    },
+    {
+        "id": 6,
+        "name": "Full Breakfast Fried Egg Toast Brunch",
+        "img": "https://i.ibb.co/7CTYTRx/breakfast6.png",
+        "details": "How we dream about our future",
+        "description": "Gay one the what walk then she. Demesne mention promise you justice arrived away. Amazing foods ar Or and increasing to in especially inquietude companions acceptance admiration. Outweigh it families distance wandered ye",
+        "price": "$3.99"
+    }
+]

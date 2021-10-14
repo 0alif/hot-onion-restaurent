@@ -1,0 +1,15 @@
+.cards:hover {
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.choose-us {
+  width: 45%;
+  margin-bottom: 40px;
+}
+.see-more {
+  text-decoration: none;
+  font-weight: 500;
+}
+.see-more:hover {
+  text-decoration: underline;
+}
