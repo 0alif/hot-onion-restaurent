@@ -58,7 +58,6 @@ const ChooseUs = () => {
                             </div>
                         </div>
                     </Col>
-
                 </Row>
             </div>
         </div>

@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 initializeAuthentication();
 
 const Register = () => {
-    const { handleName, handleEmail, handlePassword, createUser, error } = useAuth();
+    const { handleName, handleEmail, handlePassword, createUser, error, signInUsingGoogle } = useAuth();
 
     return (
         <div className="register d-flex justify-content-center">
@@ -30,6 +30,7 @@ const Register = () => {
                         Sign in
                     </button>
                     <p className="text-danger"><Link to="/login">Already have an account?</Link></p>
+                    <button onClick={signInUsingGoogle}>Google</button>
                 </Form>
             </div>
         </div>

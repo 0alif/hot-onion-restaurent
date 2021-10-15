@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import AuthProvider from './context/AuthProvider';
 import Login from './components/Login/Login';
 import FoodDetails from './components/FoodDetails/FoodDetails';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
@@ -27,8 +28,11 @@ function App() {
             <Route exact path="/login">
               <Login></Login>
             </Route>
-            <Route exact path="/food/:foodId">
+            <Route exact path="/foodDetails/:foodId">
               <FoodDetails></FoodDetails>
+            </Route>
+            <Route exact path="*">
+              <NotFound></NotFound>
             </Route>
           </Switch>
           <Footer></Footer>

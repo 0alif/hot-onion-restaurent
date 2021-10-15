@@ -14,7 +14,6 @@ const Menubar = () => {
             </div>
             <div className="menu col-md-10 d-flex justify-content-end">
                 <li className="ms-5"><img src={path1} alt="" /></li>
-                {user.displayName && <p>Hello {user.displayName}</p>}
                 {
                     user.email ? <button onClick={logOut} className="logout ms-5 btn rounded-pill">Logout</button>
                         :
@@ -27,6 +26,3 @@ const Menubar = () => {
 };
 
 export default Menubar;
-
-{/* <li className="ms-5"><Link to="/login">Login</Link></li>
-                <li className="ms-5"><Link to="/register"><button className="regular-btn btn  rounded-pill px-4">Sign up</button></Link></li> */}
