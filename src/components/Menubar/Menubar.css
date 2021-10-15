@@ -8,3 +8,11 @@
   font-weight: 500;
   background-color: #fa395e;
 }
+.logout {
+  font-weight: 500;
+}
+.logout:hover {
+  color: white;
+  font-weight: 500;
+  background-color: #fa395e;
+}

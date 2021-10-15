@@ -1,13 +1,14 @@
 import React from 'react';
 import './Footer.css';
 import logo from '../../Image/logo.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <div className="footer mt-5">
             <div className="row container py-5">
                 <div className="col-sm-12 col-md-6">
-                    <img width="200px" src={logo} alt="" />
+                    <Link to="/"><img width="200px" src={logo} alt="" /></Link>
                 </div>
                 <div className="col-sm-12 col-md-3">
                     <p>About Online food</p>
