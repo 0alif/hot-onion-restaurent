@@ -6,6 +6,7 @@ import AuthProvider from './context/AuthProvider';
 import Login from './components/Login/Login';
 import FoodDetails from './components/FoodDetails/FoodDetails';
 import NotFound from './components/NotFound/NotFound';
+import Delivery from './components/Delivery/Delivery';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
             </Route>
             <Route exact path="/foodDetails/:foodId">
               <FoodDetails></FoodDetails>
+            </Route>
+            <Route path="/foodDetails/:foodId/delivery">
+              <Delivery></Delivery>
             </Route>
             <Route exact path="*">
               <NotFound></NotFound>

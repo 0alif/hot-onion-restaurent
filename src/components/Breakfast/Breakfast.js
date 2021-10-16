@@ -18,7 +18,7 @@ const Breakfast = ({ food }) => {
                     <div className="pt-3">
                         <h5>{name}</h5>
                         <p>{details}</p>
-                        <p><b>{price}</b></p>
+                        <p><b>${price}</b></p>
                     </div>
                 </div>
             </Col>

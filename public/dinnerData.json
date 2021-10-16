@@ -5,7 +5,7 @@
         "img": "https://i.ibb.co/6ms1b17/dinner1.png",
         "details": "How we dream about our future",
         "description": "Gay one the what walk then she. Demesne mention promise you justice arrived away. Amazing foods ar Or and increasing to in especially inquietude companions acceptance admiration. Outweigh it families distance wandered ye",
-        "price": "$9.99"
+        "price": 9.99
     },
     {
         "id": 222,
@@ -13,7 +13,7 @@
         "img": "https://i.ibb.co/fCshpW4/dinner2.png",
         "details": "How we dream about our future",
         "description": "Gay one the what walk then she. Demesne mention promise you justice arrived away. Amazing foods ar Or and increasing to in especially inquietude companions acceptance admiration. Outweigh it families distance wandered ye",
-        "price": "$10.99"
+        "price": 10.99
     },
     {
         "id": 333,
@@ -21,7 +21,7 @@
         "img": "https://i.ibb.co/chbS6zX/dinner3.png",
         "details": "How we dream about our future",
         "description": "Gay one the what walk then she. Demesne mention promise you justice arrived away. Amazing foods ar Or and increasing to in especially inquietude companions acceptance admiration. Outweigh it families distance wandered ye",
-        "price": "$12.99"
+        "price": 12.99
     },
     {
         "id": 444,
@@ -29,7 +29,7 @@
         "img": "https://i.ibb.co/NN7RpvL/dinner4.png",
         "details": "How we dream about our future",
         "description": "Gay one the what walk then she. Demesne mention promise you justice arrived away. Amazing foods ar Or and increasing to in especially inquietude companions acceptance admiration. Outweigh it families distance wandered ye",
-        "price": "$8.99"
+        "price": 8.99
     },
     {
         "id": 555,
@@ -37,7 +37,7 @@
         "img": "https://i.ibb.co/Jmnw2yR/dinner5.png",
         "details": "How we dream about our future",
         "description": "Gay one the what walk then she. Demesne mention promise you justice arrived away. Amazing foods ar Or and increasing to in especially inquietude companions acceptance admiration. Outweigh it families distance wandered ye",
-        "price": "$6.99"
+        "price": 6.99
     },
     {
         "id": 666,
@@ -45,6 +45,6 @@
         "img": "https://i.ibb.co/7WnD35t/dinner6.png",
         "details": "How we dream about our future",
         "description": "Gay one the what walk then she. Demesne mention promise you justice arrived away. Amazing foods ar Or and increasing to in especially inquietude companions acceptance admiration. Outweigh it families distance wandered ye",
-        "price": "$9.99"
+        "price": 9.99
     }
 ]

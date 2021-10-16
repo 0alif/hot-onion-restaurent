@@ -8,12 +8,11 @@ import logout from '../../Image/ICON/logout.jpg';
 
 const Menubar = () => {
     const { user, logOut } = useAuth();
-    console.log(user)
 
     return (
         <div className="row sticky-top menubar">
             <div className="col-md-2">
-                <Link to="/"><img className="img-fluid" src={logo2} alt="" /></Link>
+                <Link to="/"><img className="img-fluid" src={logo2} alt="" width="120px" /></Link>
             </div>
             <div className="menu col-md-10 d-flex justify-content-end">
                 <li className="ms-4"><img src={path1} alt="" /></li>

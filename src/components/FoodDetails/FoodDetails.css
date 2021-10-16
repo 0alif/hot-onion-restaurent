@@ -1,0 +1,22 @@
+.single-details {
+  margin-top: 4%;
+  padding-left: 10%;
+}
+.single-details h1 {
+  padding-bottom: 20px;
+}
+.single-details p {
+  width: 70%;
+}
+.price {
+  font-size: 30px;
+  font-weight: 600;
+}
+.add-btn {
+  color: white;
+  font-weight: 500;
+  background-color: #fa395e;
+}
+.add-btn img {
+  width: 30px;
+}
