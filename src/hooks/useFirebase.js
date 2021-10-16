@@ -98,6 +98,8 @@ const useFirebase = () => {
             .finally(() => setIsLoading(false))
     }
     return {
+        name,
+        isLoading,
         user,
         error,
         createUser,

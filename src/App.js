@@ -1,9 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home/Home';
-import Menubar from './components/Menubar/Menubar';
 import Register from './components/Register/Register';
-import Footer from './components/Footer/Footer';
 import AuthProvider from './context/AuthProvider';
 import Login from './components/Login/Login';
 import FoodDetails from './components/FoodDetails/FoodDetails';
@@ -14,7 +12,6 @@ function App() {
     <div>
       <AuthProvider>
         <Router>
-          <Menubar></Menubar>
           <Switch>
             <Route exact path='/'>
               <Home></Home>
@@ -35,7 +32,6 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
-          <Footer></Footer>
         </Router>
       </AuthProvider>
     </div>

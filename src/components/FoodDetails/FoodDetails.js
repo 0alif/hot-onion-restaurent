@@ -1,29 +1,31 @@
 import React, { useEffect, useState } from 'react';
-import { useHistory, useParams } from 'react-router';
+import { useParams } from 'react-router';
+import Footer from '../Footer/Footer';
+import Menubar from '../Menubar/Menubar';
 import './FoodDetails.css';
 
 const FoodDetails = () => {
-    const [food, setFood] = useState([]);
+    const [meal, setMeal] = useState([]);
 
     const { foodId } = useParams();
-    console.log(foodId);
 
-    // load breakfast data
     useEffect(() => {
-        fetch('./breakfastData.json')
+        fetch('/breakfastData.json')
             .then(res => res.json())
-            .then(data => setFood(data));
-    }, []);
-    console.log(food);
-
-    const xyz = food.find(f => f.id === foodId);
-    console.log(xyz);
-
+            .then(data => {
+                const details = data.find(product => product.id == foodId)
+                setMeal(details);
+            })
+    }, [foodId])
 
     return (
         <div>
-            <h2>This is food</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quis distinctio voluptatum fugiat! Officiis maxime sit alias quos reiciendis amet nobis ad in voluptate numquam perferendis, sed dicta debitis laborum inventore ducimus esse recusandae tempora nesciunt vero accusantium. Eos illo non labore ratione officia impedit enim? Laboriosam doloremque aut similique.</p>
+            <Menubar></Menubar>
+            <div>
+                <h2>{meal.name}</h2>
+                <img src={meal.img} alt="" width="200px" />
+            </div>
+            <Footer></Footer>
         </div>
     );
 };
